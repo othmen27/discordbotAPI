@@ -1,0 +1,39 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.*        # Ignore all env files, optional
+tokens.env    # Specifically ignore your custom env file
+
+# VSCode settings
+.vscode/
+
+# OS-specific files (Windows/macOS)
+Thumbs.db
+.DS_Store
+
+# Optional: build or temp folders
+dist/
+build/
+tmp/
+temp/
+
+# Optional: ignore compiled files
+*.tsbuildinfo
+
+# Optional: coverage reports
+coverage/
+.env
+tokens.env
+
+# Optional: lock files if using yarn/pnpm and want to avoid them
+# yarn.lock
+# pnpm-lock.yaml
